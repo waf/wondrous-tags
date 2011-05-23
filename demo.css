@@ -1,0 +1,30 @@
+/* jquery ui seems to make things massive by default, scale it
+ * down to a more sane size
+ */
+.ui-widget {
+    font-size: .75em;
+}
+/* Misc page styles */
+body {
+    font-family:sans-serif;
+    line-height:1.2em;
+    padding:10px;
+}
+h1,h2 {
+    display:inline;
+    margin:0;
+    font-weight:normal;
+}
+h1 {
+    font-size:1.8em;
+    margin:0;
+}
+h2:before {
+    content:" - ";
+}
+h2 {
+    font-size:1.1em;
+}
+.features {
+    margin:40px 10px;
+}

@@ -1,0 +1,22 @@
+.wondrous-tagger {
+    overflow:auto;
+    cursor:text;
+    border:1px solid #555;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.wondrous-tagger li {
+    float:left;
+    font-size:1em;
+    margin-right:0.4em;
+}
+.wondrous-tagger input {
+    border:none;
+    background-color:tranparent;
+    outline:none;
+    font-size:1em;
+    line-height:1.4em;
+    padding:0.4em 0;
+    margin:0;
+}
